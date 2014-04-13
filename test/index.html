@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>Test</title>
+<!--   <link rel="stylesheet" href="/bower_components/mocha/mocha.css">
+ --></head>
+<body>
+  <div id="mocha"></div>
+
+  <script src="/bower_components/lodash/dist/lodash.js"></script>
+  <script src="/bower_components/traceur/traceur.js"></script>
+  <script src="/bower_components/es6-module-loader/dist/es6-module-loader.js"></script>
+
+  <script>
+    System.import('/lib/game').then(function(m) {
+      console.log('cool')
+      // player = new m.Player();
+      // console.log(player);
+      console.log('what')
+    }, function(err) {
+      console.log('failed to be cool');
+      console.log(err);
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "ecma-fantasy-6",
+  "version": "0.0.0",
+  "authors": [
+    "Mason Stewart <masondesu@gmail.com>"
+  ],
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "es6-module-loader": "~0.5.4"
+  },
+  "devDependencies": {
+    "lodash": "~2.4.1"
+  }
+}
