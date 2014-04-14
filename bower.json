@@ -19,6 +19,8 @@
     "es6-module-loader": "~0.5.4"
   },
   "devDependencies": {
-    "lodash": "~2.4.1"
+    "lodash": "~2.4.1",
+    "mocha": "~1.18.2",
+    "chai": "~1.9.1"
   }
 }
